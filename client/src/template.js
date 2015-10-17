@@ -6,8 +6,6 @@ export class Template extends Component {
     var template = _.template(this.props.template);
     var data = this.props.data;
 
-    console.log(this.props.template)
-
     return (
       <div className={this.props.className}
            dangerouslySetInnerHTML={{__html: template(data)}}/>

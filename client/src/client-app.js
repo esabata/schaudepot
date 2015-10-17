@@ -22,7 +22,7 @@ export class ClientApp extends Component {
 
   render () {
     return (
-      <Slider interval={1000} slides={this.state.slides}/>
+      <Slider interval={3000} slides={this.state.slides}/>
     );
   }
 }
