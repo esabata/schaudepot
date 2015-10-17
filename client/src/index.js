@@ -1,3 +1,5 @@
+require("../css/main.css");
+
 import React from 'react';
 import { ClientApp } from './client-app';
 

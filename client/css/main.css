@@ -1,8 +1,19 @@
-html, body, .slides, .slide {
+html {
+    overflow: hidden;
+}
+
+html, body, .slides, .slide, .app {
     width: 100%;
     height: 100%;
+    margin: 0;
 }
 
 .slides {
+    transition: margin-left 1s ease-in;
+    display: flex;
+    flex-direction: row;
+}
 
+.slide {
+    flex-shrink: 0;
 }
